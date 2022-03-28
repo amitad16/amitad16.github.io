@@ -59,7 +59,7 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   /* #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; } */
    #resume .main-col { padding-right: 5%; }   
 
    /* Testimonials Section
@@ -202,12 +202,12 @@
    }
 
    /* header social links */
-   header .social {
+   /* header .social {
       margin: 18px 0 24px 0;
       font-size: 24px;
       line-height: 36px;      
    }
-   header .social li { margin: 0 10px; }
+   header .social li { margin: 0 10px; } */
 
     /* scrolldown link */
    header .scrolldown { display: none; }
@@ -359,9 +359,13 @@
       width: 90%;
    }
   
+
+   #about .contact-details .address {
+      font-size: 24px;
+   }
    /* header social links */
-   header .social { font-size: 20px;}
-   header .social li { margin: 0 6px; }
+   /* header .social { font-size: 20px;}
+   header .social li { margin: 0 6px; } */
 
    /* footer
    ------------------------------------------------------------------------ */

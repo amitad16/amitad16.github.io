@@ -89,21 +89,24 @@ header .banner-text hr {
 }
 
 /* header social links */
-header .social {
-  margin: 24px 0;
+.social {
+  margin: 24px auto;
   padding: 0;
   font-size: 30px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
 }
-header .social li {
+.social li {
   display: inline-block;
   margin: 0 15px;
   padding: 0;
 }
-header .social li a {
+.social li a {
   color: #fff;
 }
-header .social li a:hover {
+.social li a:hover {
   color: #11abb0;
 }
 
@@ -274,7 +277,10 @@ ul#nav li.current a {
 }
 
 /* social links */
-#about .social-links {
+#about .social {
+  margin-left: 0;
+}
+/* #about .social-links {
   margin: 18px 0 30px 0;
   padding: 0;
   font-size: 30px;
@@ -289,7 +295,7 @@ ul#nav li.current a {
 
 #about .social-links li:first-child {
   margin-left: 0;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -511,8 +517,7 @@ ul#nav li.current a {
 
 #portfolio {
   background: #0f0f0f;
-  padding-top: 90px;
-  padding-bottom: 60px;
+  padding: 90px 20px 60px 20px;
 }
 #portfolio h1 {
   letter-spacing: 1px;
@@ -522,6 +527,10 @@ ul#nav li.current a {
   margin-top: 12px;
   margin-bottom: 48px;
   text-transform: uppercase;
+}
+
+#portfolio p {
+  line-height: 1.3;
 }
 
 #portfolio-wrapper {
@@ -1225,7 +1234,7 @@ footer .copyright li:first-child:before {
 }
 
 /* social links */
-footer .social-links {
+/* footer .social-links {
   margin: 18px 0 30px 0;
   padding: 0;
   font-size: 60px;
@@ -1240,7 +1249,7 @@ footer .social-links li {
 
 footer .social-links li:first-child {
   margin-left: 0;
-}
+} */
 
 footer .contact-details {
   width: 100%;
